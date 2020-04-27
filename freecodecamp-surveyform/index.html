@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+.body{
+  background-color: b8cad4;
+}
+
+.form{
+  text-align: center;
+ border: 3px solid black;
+}
+</style>
+</head>
+
+<body class="body">
+
+  <center><h1 id="title"> Music Vex Customer Survey </h1> </center>
+<center>  <p id="description">This is a survey about music.</p></center>
+  <form class="form" id="survey-form">
+ <label id="name-label"> Name:</label>
+ <input type="text" name="name" required id="name" placeholder="First Name"> </input> <br>
+<label id="email-label"> Email:</label>
+ <input type="email" name="name" required id="email" placeholder="Place your email" > </input> <br>
+<label id="number-label"> Age: </label>
+ <input type="number" name="name"required id="number" min="0" max="99" placeholder="Age"> </input> <br>
+ <br>
+
+ <label for="guitar">Favourite brand :</label>
+<select id="dropdown">
+  <option value="fender">Korg</option>
+  <option value="Martin">Mapex</option>
+  <option value="Strat">Marshall</option>
+  <option value="Ephi">Ephiphone</option>
+  </select>
+<br>
+<br>
+
+<label for="guitar">Gender:</label> <br>
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<br>
+
+
+<label for="instrument">Choose a instrument that you have: </label> <br>
+<br>
+<input type="checkbox" id="guitar" name="guitar" value="guitar">
+<label for="vehicle1"> I have a guitar</label><br>
+<input type="checkbox" id="keyboard" name="keyboard" value="keyboard">
+<label for="vehicle2"> I have a keyboard</label><br>
+<input type="checkbox" id="drum" name="drum" value="drum">
+<label for="vehicle3"> I have a acoustic guitar </label><br> <br>
+
+<textarea placeholder="Comments"> </textarea > <br> <br>
+
+ <input  id="submit" type="submit">
+
+  </form>
+
+
+
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+</<body>
+
+</html>
